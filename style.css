@@ -1,0 +1,126 @@
+body{
+	background: blue;
+}
+
+/*/--------------CABEÇALHO------------------------/*/
+header {
+	background:#1e146e;
+	padding: 10px;
+}
+
+.caixa {
+	position: relative;
+	width: 110%;
+	margin: auto;
+}
+
+.cabecalho {
+	position: absolute;
+	top: 80px;
+	right: 350px;
+}
+
+.logo{
+position: relative;
+left: 80px;
+}
+
+.cabecalho li {
+	display: inline;
+	margin: 0 0 0 5px;
+}
+
+.cabecalho a {
+	text-transform: uppercase;
+	color: skyblue;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.cabecalho a:hover {
+	color: blue;
+	font-size: 32px;
+}
+/*/-------------------------------------------------------------------------------------------------/*/
+
+.banner{
+	padding: 0 5px;
+}
+
+/*/------------QUALIDADE DOS PRODUTOS DA LOJA-------------/*/
+.qualidade{
+text-align: center;
+}
+
+.qualidade h1{
+	color: gold;
+	font-size: 30px;
+	margin: 25px 0 10px;
+}
+.qualidade h2{
+	font-size: 20px;
+	text-align: left;
+	padding:2px 0 5px 20% ;
+}
+
+.qualidade h2 p{
+	padding: 3px 0;
+}
+/*/-------------------------------------------------------------------------------------------------/*/
+
+/*/------------SOBRE A MV MOLDURAS-------------------/*/
+.sobre{
+	text-align: center;
+}
+
+.sobre h1{
+	color: gold;
+	font-size: 30px;
+	margin: 100px 0 10px;
+}
+
+.sobre div{
+	font-size: 20px;
+	text-align: left;
+	padding:2px 0 5px 20%;
+}
+/*/-------------------------------------------------------------------------------------------------/*/
+
+/*/---------------MISSÃO VISÃO E  VALORES----------------/*/
+.mvv{
+	text-align: center;
+}
+
+.mvv h1{
+ 	color: gold;
+	font-size: 30px;
+	margin: 100px 0 10px;
+}
+
+.mvv div{
+	font-size: 20px;
+	text-align: left;
+	padding:2px 0 5px 20%;
+
+}
+/*/-------------------------------------------------------------------------------------------------/*/
+
+/*/------------------RODAPÉ-------------------------------/*/
+
+footer{
+	background:#1e146e;
+	padding: 40px 0;
+	margin: 40px 0 0;
+}
+
+dd a{
+	color: black;
+	text-decoration: none;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 15px;
+	color: #FFFFFF;
+}
