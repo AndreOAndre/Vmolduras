@@ -1,5 +1,12 @@
+/*/ #0c3c4c - azul marinho --> HEADER e FOOTER /*/
+/*/ #146884 - azul escuro --> BODY/*/
+/*/ #f88c58 - beje escuro --> LINKS CABEÇALHO /*/
+/*/ #22addc -azul claro /*/
+/*/ #8cd4ec - azul céu /*/
+
+/*-----------------------------------------------------------*/
 body{
-	background: #949cc7;
+	background: #146884;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -15,20 +22,20 @@ header {
 	margin: auto;
 }
 
-.cabecalho {
-	position: absolute;
-	top: 80px;
-	right: 150px;
-}
-
 .logo{
 position: relative;
 left: 50px;
 }
 
+.cabecalho {
+	position: absolute;
+	top: 80px;
+	right: 50px;
+}
+
 .cabecalho li {
 	display: inline;
-	margin: 0 5px 0 5px;
+	margin: 0 10px 0 10px;
 }
 
 .cabecalho a {
@@ -46,94 +53,168 @@ left: 50px;
 /*/-------------------------------------------------------------------------------------------------/*/
 
 .banner{
-	padding: 50px 30px;
+	padding: 40px 60px;
 }
 
 /*/------------QUALIDADE DOS PRODUTOS DA LOJA-------------/*/
 .qualidade{
-	background-color: #7d82a2;
-	text-align: center;
-	border-radius: 50px;
-	margin: 50px 100px 30px ;
+	transform: scale(1.0);
+	transition: 1.5s all;
+	background-color: #22addc;
+	border-radius: 20px;
+	margin: 50px 100px 50px ;
+  	box-shadow: 10px 15px 20PX #0c3c4c;
+}
+.qualidade:hover{
+	transform: scale(1.1);
+	transition: 1.5s all;
 }
 
 .qualidade h1{
+	background-color: #0c3c4c;
 	font-size: 30px;
-	margin: 25px 0 10px;
-	color: black
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 0px;
+	color: #f88c58;
 }
+
+
 .qualidade div{
 	font-size: 20px;
 	text-align: left;
-	padding:2px 8% ;
+	padding:30px 80px ;
 	color: #FFFFFF;
 }
 
-.qualidade h2 p{
+.qualidade div p{
 	padding: 3px 0;
 }
-/*/-------------------------------------------------------------------------------------------------/*/
+/*-------------------------------------------------------------*/
 
 /*/------------SOBRE A MV MOLDURAS-------------------/*/
 .sobre{
-	background-color: #7d82a2;
-	text-align: center;
-	border-radius: 100px;
-	margin: 0px 120px 30px;
+	transform: scale(1.0);
+	transition: 1.5s all;
+	background-color: #22addc;
+	border-radius: 20px;
+	margin: 0px 150px 50px;
+	box-shadow: 10px 15px 20PX #0c3c4c;
+}
+
+.sobre:hover{
+	transform: scale(1.1);
+	transition: 1.5s all;
 }
 
 .sobre h1{
+	background-color: #0c3c4c;
 	font-size: 30px;
-	margin: 25px 0 10px;
-	color: black
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 0px;
+	color: #f88c58;
 }
+
 
 .sobre div{
 	font-size: 20px;
 	text-align: left;
-	padding:2px 8% ;
+	padding:30px 80px ;
 	color: #FFFFFF;
+}
+
+.sobre div p{
+	padding: 3px 0;
 }
 /*/-------------------------------------------------------------------------------------------------/*/
 
 /*/---------------MISSÃO VISÃO E  VALORES----------------/*/
 .mvv{
-	background-color: #7d82a2;
-	text-align: center;
-	border-radius: 100px;
-	margin: 0px 150px 50px;
+	transform: scale(1.0);
+	transition: 1.5s all;
+	background-color: #22addc;
+	border-radius: 20px;
+	margin: 0px 200px 50px;
+	box-shadow: 10px 15px 20PX #0c3c4c;
+}
+
+.mvv:hover{
+	transform: scale(1.1);
+	transition: 1.5s all;
 }
 
 .mvv h1{
+	background-color: #0c3c4c;
 	font-size: 30px;
-	margin: 25px 0 10px;
-	color: black
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 0px;
+	color: #f88c58;
 }
 
 .mvv div{
 	font-size: 20px;
 	text-align: left;
-	padding:2px 8% ;
+	padding:30px 80px ;
 	color: #FFFFFF;
+}
 
+.mvv div p{
+	padding: 3px 0;
 }
 /*/-------------------------------------------------------------------------------------------------/*/
 
-/*/------------------RODAPÉ-------------------------------/*/
-
+/*------------------RODAPÉ-------------------------------*/
 footer{
-	background:#b2a67c;
+	background:#0c3c4c;
 	padding: 40px 0;
 	margin: 40px 0 0;
 }
 
-dd a{
-	color: black;
+/*------------RODAPÉ LINKS CONTATO------------------------*/
+.rodape dl{
+	margin: 0 50px;
+}
+
+.rodape dd{
+	color: #f88c58;
+	padding: 5px 0;
+}
+
+.rodape dd a{
+	text-decoration: none;
+	color: #f88c58;
+	margin: 0 0 50px;
+
+}
+
+dd a:hover{
+cursor: pointer;
+}
+/*----------- RODAPÉ INSTAGRAM ---------*/ 
+.divInsta{
+	margin: 34px 50px;
+}
+
+.instaLink{
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
+.logoInsta{
+	position: absolute;
+	top: 1764px;
+	left: 250px;
+}
+/*-------- RODAPÉ COPYRIGHT ------------------*/
 .copyright {
 	text-align: center;
-	font-size: bolder 15px;
-	color: #000000;
+	font-size:15px;
+	color: #FFFFFF;
+}
+
+.copyright p {
+	padding: 10px 0 0;
+	color: #f88c58;
 }
