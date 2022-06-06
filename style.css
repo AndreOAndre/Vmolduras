@@ -1,67 +1,72 @@
 body{
-	background: blue;
+	background: #949cc7;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 /*/--------------CABEÇALHO------------------------/*/
 header {
-	background:#1e146e;
+	background:#0c3c4c;
 	padding: 10px;
 }
 
 .caixa {
 	position: relative;
-	width: 110%;
+	width: 100%;
 	margin: auto;
 }
 
 .cabecalho {
 	position: absolute;
 	top: 80px;
-	right: 350px;
+	right: 150px;
 }
 
 .logo{
 position: relative;
-left: 80px;
+left: 50px;
 }
 
 .cabecalho li {
 	display: inline;
-	margin: 0 0 0 5px;
+	margin: 0 5px 0 5px;
 }
 
 .cabecalho a {
 	text-transform: uppercase;
-	color: skyblue;
+	color: #f88c58;
 	font-weight: bold;
 	font-size: 30px;
 	text-decoration: none;
 }
 
 .cabecalho a:hover {
-	color: blue;
 	font-size: 32px;
+	text-shadow: 0.5px 1.5px #000000;
 }
 /*/-------------------------------------------------------------------------------------------------/*/
 
 .banner{
-	padding: 0 5px;
+	padding: 50px 30px;
 }
 
 /*/------------QUALIDADE DOS PRODUTOS DA LOJA-------------/*/
 .qualidade{
-text-align: center;
+	background-color: #7d82a2;
+	text-align: center;
+	border-radius: 50px;
+	margin: 50px 100px 30px ;
 }
 
 .qualidade h1{
-	color: gold;
 	font-size: 30px;
 	margin: 25px 0 10px;
+	color: black
 }
-.qualidade h2{
+.qualidade div{
 	font-size: 20px;
 	text-align: left;
-	padding:2px 0 5px 20% ;
+	padding:2px 8% ;
+	color: #FFFFFF;
 }
 
 .qualidade h2 p{
@@ -71,37 +76,45 @@ text-align: center;
 
 /*/------------SOBRE A MV MOLDURAS-------------------/*/
 .sobre{
+	background-color: #7d82a2;
 	text-align: center;
+	border-radius: 100px;
+	margin: 0px 120px 30px;
 }
 
 .sobre h1{
-	color: gold;
 	font-size: 30px;
-	margin: 100px 0 10px;
+	margin: 25px 0 10px;
+	color: black
 }
 
 .sobre div{
 	font-size: 20px;
 	text-align: left;
-	padding:2px 0 5px 20%;
+	padding:2px 8% ;
+	color: #FFFFFF;
 }
 /*/-------------------------------------------------------------------------------------------------/*/
 
 /*/---------------MISSÃO VISÃO E  VALORES----------------/*/
 .mvv{
+	background-color: #7d82a2;
 	text-align: center;
+	border-radius: 100px;
+	margin: 0px 150px 50px;
 }
 
 .mvv h1{
- 	color: gold;
 	font-size: 30px;
-	margin: 100px 0 10px;
+	margin: 25px 0 10px;
+	color: black
 }
 
 .mvv div{
 	font-size: 20px;
 	text-align: left;
-	padding:2px 0 5px 20%;
+	padding:2px 8% ;
+	color: #FFFFFF;
 
 }
 /*/-------------------------------------------------------------------------------------------------/*/
@@ -109,7 +122,7 @@ text-align: center;
 /*/------------------RODAPÉ-------------------------------/*/
 
 footer{
-	background:#1e146e;
+	background:#b2a67c;
 	padding: 40px 0;
 	margin: 40px 0 0;
 }
@@ -121,6 +134,6 @@ dd a{
 
 .copyright {
 	text-align: center;
-	font-size: 15px;
-	color: #FFFFFF;
+	font-size: bolder 15px;
+	color: #000000;
 }
