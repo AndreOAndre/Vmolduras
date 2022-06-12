@@ -1,0 +1,87 @@
+body{
+	background: #146884;
+	font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+
+header {
+	background:#0c3c4c;
+	padding: 10px;
+}
+
+.caixa {
+	position: relative;
+	width: 100%;
+	margin: auto;
+}
+
+.logo{
+position: relative;
+left: 50px;
+}
+
+.cabecalho {
+	position: absolute;
+	top: 80px;
+	right: 50px;
+}
+
+.cabecalho li {
+	display: inline;
+	margin: 0 10px 0 10px;
+}
+
+.cabecalho a {
+	text-transform: uppercase;
+	color: #f88c58;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.cabecalho a:hover {
+	font-size: 32px;
+	text-shadow: 0.5px 1.5px #000000;
+}
+
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+footer{
+	background:#0c3c4c;
+	padding: 40px 0;
+	margin: 40px 0 0;
+}
+
+/*------------RODAPÉ LINKS CONTATO------------------------*/
+.rodape dl{
+	margin: 0 50px;
+}
+
+.rodape dd{
+	color: #f88c58;
+	padding: 5px 0;
+}
+
+.rodape dd a{
+	text-decoration: none;
+	color: #f88c58;
+	margin: 0 0 50px;
+
+}
+
+dd a:hover{
+cursor: pointer;
+}
+
+/*-------- RODAPÉ COPYRIGHT ------------------*/
+.copyright {
+	text-align: center;
+	font-size:15px;
+	color: #FFFFFF;
+}
+
+.copyright p {
+	padding: 10px 0 0;
+	color: #f88c58;
+}
